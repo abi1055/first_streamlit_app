@@ -1,6 +1,8 @@
 import streamlit
-import pandas 
+import pandas as pd
 import numpy 
+
+fruits = pd.csv_read('https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt')
 
 streamlit.title('My Parents New Healthy Diner Menu')
 streamlit.header('🍞 Breakfast Favorites')
