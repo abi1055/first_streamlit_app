@@ -1,4 +1,6 @@
 import streamlit
+import pandas 
+import numpy 
 
 streamlit.title('My Parents New Healthy Diner Menu')
 streamlit.header('🍞 Breakfast Favorites')
